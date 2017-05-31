@@ -4,7 +4,7 @@ this is a node module who will inject new Async methods im core module of NodeJS
 
 For example, in NodeJS we have in fs :
 
-- `fs.readFileSync(path) : string (bad idea)`
+- `fs.readFileSync(path) : string` (bad idea)
 - `fs.readFile(path, callback: (err, content :str) => void) : void` (good but risk of callback hell)
 
 With require this module you'll have a new function :
@@ -80,7 +80,9 @@ const functions = require('promisify-core-api');
 console.log(functions);
 ```
 
-You will see all supported functions, and get original sync, callback api and the promisify api (function name, not directly the function)
+You will see all supported functions, and get original sync, callback api and the promisify api (function name, not directly the function).
+
+See below part of this big object
 
 ```js
 {
