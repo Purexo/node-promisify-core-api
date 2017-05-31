@@ -11,6 +11,18 @@ With require this module you'll have a new function :
 
 - `fs.readFileAsync(path) : Promise<content: string, err>` (Yeah a Promise, we can chain, await, etc..., help to keep a flat code ^^)
 
+# Requirements
+
+no-one except Node 8+
+
+The big magic is in the new util.promisify function added in Node 8.
+
+# Install
+
+```
+npm install promisify-core-api --save
+```
+
 # Usage
 
 In the earlier entry point of your program :
