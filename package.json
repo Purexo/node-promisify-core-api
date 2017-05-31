@@ -1,0 +1,25 @@
+{
+  "name": "promisify-core-api",
+  "version": "1.0.0",
+  "description": "A Polyfill for Promisify Node ^8.0.0 Core Api",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Purexo/node-promisify-core-api.git"
+  },
+  "keywords": [
+    "node",
+    "Promise",
+    "util.promisify",
+    "sync to async"
+  ],
+  "author": "Purexo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Purexo/node-promisify-core-api/issues"
+  },
+  "homepage": "https://github.com/Purexo/node-promisify-core-api#readme"
+}
