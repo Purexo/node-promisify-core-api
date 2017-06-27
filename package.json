@@ -21,5 +21,14 @@
   "bugs": {
     "url": "https://github.com/Purexo/node-promisify-core-api/issues"
   },
-  "homepage": "https://github.com/Purexo/node-promisify-core-api#readme"
+  "homepage": "https://github.com/Purexo/node-promisify-core-api#readme",
+  "engines": { "node" : ">=8.0.0" },
+  "dependencies": {},
+  "contributors": [
+    {
+      "name": "Purexo",
+      "email": "contact@purexo.mom",
+      "url": "https://purexo.mom/"
+    }
+  ]
 }
