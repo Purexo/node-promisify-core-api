@@ -1,6 +1,6 @@
 {
   "name": "promisify-core-api",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A Polyfill for Promisify Node ^8.0.0 Core Api",
   "main": "index.js",
   "scripts": {
